@@ -1,0 +1,271 @@
+2014/06/03 13:51:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('login')
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('login')
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\lateph\busgag\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/lateph/busgag/index.php?r=site/login
+HTTP_REFERER=http://localhost/lateph/
+---
+2014/06/03 13:54:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('login')
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('login')
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\lateph\busgag\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/lateph/busgag/index.php?r=site/login
+HTTP_REFERER=http://localhost/lateph/
+---
+2014/06/03 13:54:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('login')
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('login')
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\lateph\busgag\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/lateph/busgag/index.php?r=site/login
+HTTP_REFERER=http://localhost/lateph/
+---
+2014/06/03 13:54:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('login')
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('login')
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\lateph\busgag\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/lateph/busgag/index.php?r=site/login
+HTTP_REFERER=http://localhost/lateph/
+---
+2014/06/03 13:54:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('login')
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('login')
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\lateph\busgag\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/lateph/busgag/index.php?r=site/login
+HTTP_REFERER=http://localhost/lateph/
+---
+2014/06/03 13:54:47 [error] [exception.CException] exception 'CException' with message 'The view path "D:\xampp\htdocs\lateph\busgag\protected\views\api" is not a valid directory.' in D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php:444
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(152): CWebApplication->setViewPath('D:\xampp\htdocs...')
+#1 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(40): CComponent->__set('viewPath', 'D:\xampp\htdocs...')
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(558): WebApplicationEndBehavior->changeModulePaths(Object(CEvent))
+#3 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(32): CComponent->raiseEvent('onModuleCreate', Object(CEvent))
+#4 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(23): WebApplicationEndBehavior->onModuleCreate(Object(CEvent))
+#5 [internal function]: WebApplicationEndBehavior->runEnd('api')
+#6 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\lateph\busgag\api.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd('api')
+#9 {main}
+REQUEST_URI=/lateph/busgag/api.php
+---
+2014/06/03 13:54:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('login')
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('login')
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('api')
+#6 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\lateph\busgag\api.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd('api')
+#9 {main}
+REQUEST_URI=/lateph/busgag/api.php?r=site/login
+---
+2014/06/03 13:55:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('login')
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('login')
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('api')
+#6 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\lateph\busgag\api.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd('api')
+#9 {main}
+REQUEST_URI=/lateph/busgag/api.php?r=site/login
+---
+2014/06/03 13:55:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('login')
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('login')
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(25): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('api')
+#6 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\lateph\busgag\api.php(13): CComponent->__call('runEnd', Array)
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd('api')
+#9 {main}
+REQUEST_URI=/lateph/busgag/api.php?r=site/login
+---
+2014/06/03 13:58:54 [error] [php] Undefined variable: a (D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php:9)
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(286): SiteController->runAction()
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): SiteController->run()
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#6 unknown(0): WebApplicationEndBehavior->runEnd()
+#7 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array()
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->__call()
+#9 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd()
+REQUEST_URI=/lateph/busgag/api.php?r=site
+in D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php (9)
+in D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\lateph\busgag\api.php (13)
+2014/06/03 13:58:54 [error] [php] Undefined variable: a (D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php:9)
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(286): SiteController->runAction()
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): SiteController->run()
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#6 unknown(0): WebApplicationEndBehavior->runEnd()
+#7 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array()
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->__call()
+#9 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd()
+REQUEST_URI=/lateph/busgag/api.php?r=site
+in D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php (9)
+in D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\lateph\busgag\api.php (13)
+2014/06/03 13:58:54 [error] [php] Undefined variable: a (D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php:9)
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(286): SiteController->runAction()
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): SiteController->run()
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#6 unknown(0): WebApplicationEndBehavior->runEnd()
+#7 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array()
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->__call()
+#9 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd()
+REQUEST_URI=/lateph/busgag/api.php?r=site
+in D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php (9)
+in D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\lateph\busgag\api.php (13)
+2014/06/03 14:00:17 [error] [php] Undefined variable: a (D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php:9)
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(286): SiteController->runAction()
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): SiteController->run()
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#6 unknown(0): WebApplicationEndBehavior->runEnd()
+#7 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array()
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->__call()
+#9 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd()
+REQUEST_URI=/lateph/busgag/api.php?r=site
+in D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php (9)
+in D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\lateph\busgag\api.php (13)
+2014/06/03 14:00:25 [error] [php] Undefined variable: a (D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php:9)
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(286): SiteController->runAction()
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): SiteController->run()
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#6 unknown(0): WebApplicationEndBehavior->runEnd()
+#7 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array()
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->__call()
+#9 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd()
+REQUEST_URI=/lateph/busgag/api.php?r=site
+in D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php (9)
+in D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\lateph\busgag\api.php (13)
+2014/06/03 14:00:51 [error] [php] Undefined variable: a (D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php:9)
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(286): SiteController->runAction()
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): SiteController->run()
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#6 unknown(0): WebApplicationEndBehavior->runEnd()
+#7 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array()
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->__call()
+#9 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd()
+REQUEST_URI=/lateph/busgag/api.php?r=site
+in D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php (9)
+in D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\lateph\busgag\api.php (13)
+2014/06/03 14:00:51 [error] [php] Undefined variable: a (D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php:9)
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(286): SiteController->runAction()
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): SiteController->run()
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#6 unknown(0): WebApplicationEndBehavior->runEnd()
+#7 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array()
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->__call()
+#9 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd()
+REQUEST_URI=/lateph/busgag/api.php?r=site
+in D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php (9)
+in D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\lateph\busgag\api.php (13)
+2014/06/03 14:00:52 [error] [php] Undefined variable: a (D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php:9)
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(286): SiteController->runAction()
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): SiteController->run()
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#6 unknown(0): WebApplicationEndBehavior->runEnd()
+#7 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array()
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->__call()
+#9 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd()
+REQUEST_URI=/lateph/busgag/api.php?r=site
+in D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php (9)
+in D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\lateph\busgag\api.php (13)
+2014/06/03 14:02:52 [error] [php] Undefined variable: a (D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php:9)
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(286): SiteController->runAction()
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): SiteController->run()
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#6 unknown(0): WebApplicationEndBehavior->runEnd()
+#7 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array()
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->__call()
+#9 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd()
+REQUEST_URI=/lateph/busgag/api.php
+in D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php (9)
+in D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\lateph\busgag\api.php (13)
+2014/06/03 14:03:16 [error] [php] Undefined variable: a (D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php:9)
+Stack trace:
+#0 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(286): SiteController->runAction()
+#1 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(282): SiteController->run()
+#3 D:\xampp\htdocs\lateph\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php(25): CWebApplication->run()
+#6 unknown(0): WebApplicationEndBehavior->runEnd()
+#7 D:\xampp\htdocs\lateph\yii-1.1.13\framework\base\CComponent.php(260): call_user_func_array()
+#8 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->__call()
+#9 D:\xampp\htdocs\lateph\busgag\api.php(13): CWebApplication->runEnd()
+REQUEST_URI=/lateph/busgag/api.php/login
+in D:\xampp\htdocs\lateph\busgag\protected\controllers\api\SiteController.php (9)
+in D:\xampp\htdocs\lateph\busgag\protected\components\WebApplicationEndBehavior.php (25)
+in D:\xampp\htdocs\lateph\busgag\api.php (13)
