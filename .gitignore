@@ -13,3 +13,4 @@ protected/yiic.php
 protected/data/*.db
 themes/classic/views/
 .DS_Store
+public/*

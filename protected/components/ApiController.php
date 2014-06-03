@@ -13,10 +13,10 @@ class ApiController extends CController
     {        
         if ($event instanceof CExceptionEvent)
         {
-               $this->json(array(
-                    'status'=>0,
-                    'error'=>$event->getErrors(),
-                ));
+           $this->json(array(
+                'status'=>0,
+                'error'=>$event->exception->getMessage(),
+            ));
         }
         elseif($event instanceof CErrorEvent)
         {

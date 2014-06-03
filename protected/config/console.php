@@ -11,9 +11,11 @@ return array(
 
 	// application components
 	'components'=>array(
-		'db'=>array(
-			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
-		),
+		'db'=>CMap::mergeArray(include dirname(__FILE__) . '/db.php',array(
+			// 'schemaCacheID'=>'memCache',
+			// 'queryCacheID'=>'memCache',
+			// 'schemaCachingDuration'=>'3600',
+		)),
 		// uncomment the following to use a MySQL database
 		/*
 		'db'=>array(
