@@ -93,4 +93,8 @@ class Post extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+	public function getUrlImage(){
+		return Yii::app()->params['upload_url'].'/'.$this->id.'-'.$this->namaFile;
+	}
 }

@@ -18,8 +18,7 @@ class SiteController extends ApiController
 
 	public function actionError()
 	{
-		echo "error";
-	    if($error=Yii::app()->errorHandler->error)
+		if($error=Yii::app()->errorHandler->error)
 	        $this->render('error', $error);
 	}
 
@@ -46,10 +45,25 @@ class SiteController extends ApiController
 		if($post->validate()){
 			$post->save();
 			$post->file->saveAs(Yii::app()->params['upload_path'].'/'.$post->id.'-'.$post->namaFile);
-			$this->json(array('status'=>1));
+			$this->json(array('status'=>1,'idPost'=>$post->id));
 		}
 		else{
 			$this->json(array('status'=>0,'errors'=>$post->getErrors()));
 		}
+	}
+
+	public function actionListPost(){
+		$posts = Post::model()->findAll();
+
+		$this->json(array(
+			'status'=>1,
+			'data'=>$this->toArray(
+				$posts,
+				array(
+					'id',
+					'urlImage'=>'getUrlImage',
+				)
+			),
+		));
 	}
 }

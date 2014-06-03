@@ -6,6 +6,7 @@ class m140603_141156_post extends CDbMigration
 	{
 		$this->createTable('post', array(
            'id'=>'pk',
+           'idKategori'=>'int',
            'namaFile'=>'VARCHAR(300) not null',
         ));
 	}
