@@ -9,6 +9,7 @@ class m140603_141156_post extends CDbMigration
            'idKategori'=>'int',
            'namaFile'=>'VARCHAR(300) not null',
         ));
+        $this->createIndex('indexKategori','post','idKategori');
 	}
 
 	public function down()
