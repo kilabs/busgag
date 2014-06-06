@@ -29,9 +29,10 @@ class Post extends CActiveRecord
 			array('namaFile, idKategori', 'required'),
 			array('namaFile', 'length', 'max'=>300),
 			array('file','file','types'=>'jpg,png,gif'),
+			array('deskripsi','safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, namaFile', 'safe', 'on'=>'search'),
+			array('id, namaFile, deksripsi', 'safe', 'on'=>'search'),
 		);
 	}
 
