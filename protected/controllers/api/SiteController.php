@@ -61,6 +61,7 @@ class SiteController extends ApiController
 				$posts,
 				array(
 					'id',
+					'kategori'=>'getKategori',
 					'urlImage'=>'getUrlImage',
 				)
 			),

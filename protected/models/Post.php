@@ -26,7 +26,7 @@ class Post extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('namaFile', 'required'),
+			array('namaFile, idKategori', 'required'),
 			array('namaFile', 'length', 'max'=>300),
 			array('file','file','types'=>'jpg,png,gif'),
 			// The following rule is used by search().
@@ -96,5 +96,16 @@ class Post extends CActiveRecord
 
 	public function getUrlImage(){
 		return Yii::app()->params['upload_url'].'/'.$this->id.'-'.$this->namaFile;
+	}
+
+	public function getKategori(){
+		$ar = array(
+			1=>'Kategori A',
+			2=>'Kategori B',
+			3=>'Kategori C',
+			4=>'Kategori D',
+			5=>'Kategori E',
+		);
+		return @$ar[$this->idKategori];
 	}
 }
